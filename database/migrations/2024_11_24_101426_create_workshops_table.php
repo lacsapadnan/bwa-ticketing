@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('slug');
             $table->string('thumbnail');
             $table->string('venue_thumbnail');
+            $table->text('address');
             $table->text('about');
             $table->unsignedBigInteger('price');
             $table->boolean('is_open');
